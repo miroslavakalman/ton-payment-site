@@ -1,0 +1,11 @@
+body {
+    background-color: #f7f9fb;
+}
+h1 {
+    color: black;
+}
+#connect {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}

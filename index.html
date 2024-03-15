@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="./libs/ton-access.min.js"></script>
+        <script src="./libs/tonweb.min.js"></script>
+        <script src="./libs/tonconnect-ui.min.js"></script>
+        <script src="./Counter.js"></script>
+        <title>TON Site</title>
+    </head>
+    <body>
+        <h1>Hello TON Blockchain!</h1>
+
+        <div id="connect"></div>
+
+        <button onclick="transaction()">Send TON</button>
+        <hr>
+
+        <button onclick="deploy()">Send deploy</button>
+        <div id="addr">Counter address:</div>
+        <hr>
+
+        <button onclick="increment()">Send increment</button>
+        <hr>
+
+        <button onclick="getValue()">Get value</button>
+        <div id="value">Value:</div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
