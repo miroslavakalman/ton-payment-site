@@ -1,0 +1,9 @@
+@media screen and (width < 1400px) {
+    button{
+        font-size: 40px;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+}
