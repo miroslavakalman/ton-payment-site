@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
-    manifestUrl: 'http://you.site/tonconnect-manifest.json',
+    manifestUrl: 'https://miroslavakalman.github.io/tonconnect-manifest.json',
     buttonRootId: 'connect'
 });
 
