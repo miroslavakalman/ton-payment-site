@@ -1,11 +1,41 @@
 body {
     background-color: #f7f9fb;
+    font-family: "Montserrat";
+    background: #99286c;
 }
 h1 {
-    color: black;
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 80px;
+    color: #eb9ccb;
+    text-align: center;
 }
 #connect {
     position: absolute;
     top: 2%;
     right: 2%;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+button{
+    width: 470px;
+    height: 103px;
+    background: #8c0054;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 48px;
+    color: #eb9ccb;
+}
+#value, #addr{
+    font-weight: 600;
+    font-size: 48px;
+    color: #eb9ccb;
+    margin-top: 40px;
 }
