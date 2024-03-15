@@ -31,4 +31,11 @@
     #value, #addr{
         font-size: 24px;
     }
+    button{
+        width: 320px;
+    }
+    #connect{
+        right: 0%;
+        width: 180px;
+    }
 }
