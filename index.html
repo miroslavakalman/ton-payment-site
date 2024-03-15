@@ -5,29 +5,28 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="adaptive.css">
         <script src="./libs/ton-access.min.js"></script>
         <script src="./libs/tonweb.min.js"></script>
         <script src="./libs/tonconnect-ui.min.js"></script>
         <script src="./Counter.js"></script>
-        <title>TON Site</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <title>Pinky. TON</title>
     </head>
     <body>
-        <h1>Hello TON Blockchain!</h1>
+        <h1>WELCOME TO PINKY. TON!</h1>
 
         <div id="connect"></div>
-
-        <button onclick="transaction()">Send TON</button>
-        <hr>
-
-        <button onclick="deploy()">Send deploy</button>
-        <div id="addr">Counter address:</div>
-        <hr>
-
-        <button onclick="increment()">Send increment</button>
-        <hr>
-
-        <button onclick="getValue()">Get value</button>
+        <div class="buttons">
+            <button onclick="transaction()">Send TON</button>
+            <button onclick="deploy()">Send deploy</button>
+            <button onclick="increment()">Increment</button>
+            <button onclick="getValue()">Get value</button>
+        </div>
         <div id="value">Value:</div>
+        <div id="addr">Counter address:</div>
 
         <script src="./script.js"></script>
     </body>
